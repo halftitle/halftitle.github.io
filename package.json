@@ -2,14 +2,13 @@
   "name": "halftitle.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://halftitle.github.io/halftitle.github.io",
+  "homepage": "https://halftitle.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "npm run build && touch out/.nojekyll && gh-pages -d out -b gh-pages --dotfiles"
   },
   "dependencies": {
     "next": "15.4.2",
