@@ -1,11 +1,11 @@
 :root {
   --background: #ffffff;
-  --foreground: #031430;
+  --foreground: #08111f;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #031430;
+    --background: #08111f;
     --foreground: #ffffff;
   }
 }
@@ -67,5 +67,13 @@ a:hover {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  a:hover {
+    text-decoration: none;
+    background-color: var(--foreground);
+    color: var(--background);
   }
 }

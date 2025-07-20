@@ -14,7 +14,7 @@ const nanumGothic = Nanum_Gothic_Coding({
 
 export const metadata = {
   title: "half title",
-  description: "homepage of half title zines!",
+  description: "half title zine world!",
 };
 
 export default function RootLayout({ children }) {
