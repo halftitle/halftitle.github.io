@@ -3,7 +3,8 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
     output: "export",
-    basePath: isProd ? "/halftitle.github.io" : '',
+    basePath: isProd ? "/halftitle.github.io" : "",
+    assetPrefix: isProd ? "/halftitle.github.io" : "",
     images: {
         unoptimized: true,
     },
