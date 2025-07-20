@@ -16,7 +16,7 @@ export default function Home() {
 
         <div className="zines">
           <div className="zine-header">
-            <a href="">
+            <a href="https://4pp1361r1.github.io/index.html">
               apple girl
             </a>
             <p>

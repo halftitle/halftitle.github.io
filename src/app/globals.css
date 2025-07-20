@@ -19,7 +19,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-noto-serif);
+  font-family: var(--font-nanum-gothic);
   font-size: 1.5rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -34,7 +34,7 @@ body {
 
 h1 {
   font-size: 3.5rem;
-  font-weight: 300;
+  font-weight: 400;
   align-items: center;
 }
 
