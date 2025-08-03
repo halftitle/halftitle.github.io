@@ -15,6 +15,7 @@ const nanumGothic = Nanum_Gothic_Coding({
 export const metadata = {
   title: "half title",
   description: "half title zine world!",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({ children }) {
