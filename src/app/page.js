@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
 
         <div className="zines">
           <div className="zine-header">
-            <a href="https://4pp1361r1.github.io/index.html">
+            <a href="/apple-girl">
               apple girl
             </a>
             <p>
@@ -25,7 +26,7 @@ export default function Home() {
           </div>
 
           <div className="zine-header">
-            <a href="">
+            <a href="/">
               saunatown
             </a>
             <p>
