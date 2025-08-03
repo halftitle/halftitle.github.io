@@ -25,9 +25,10 @@ export default function ImageCarousel({ images }) {
                             <Image
                                 src={img.src}
                                 alt={img.alt}
-                                width={750}
+                                width={650}
                                 height={400}
                                 className={styles.image}
+                                loading={index === currentIndex || index === (currentIndex + 1) % images.length ? "eager" : "lazy"}
                                 priority={index === currentIndex}
                             />
                         </div>

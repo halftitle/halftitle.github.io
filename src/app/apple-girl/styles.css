@@ -1,9 +1,9 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
-  color: #000000;
+  color: #333;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -18,13 +18,14 @@ main {
 header {
   text-align: center;
   gap: 0;
+  padding: 1rem;
 }
 
 header img {
   text-align: center;
   display: block;
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
   height: auto;
   margin: 0 auto;
   cursor: pointer;
@@ -47,6 +48,7 @@ footer {
 
 a:any-link { 
  text-decoration: underline; 
+ background-color: #fff;
 }
 
 a:link {

@@ -12,12 +12,13 @@
   background: none;
   border: none;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   cursor: pointer;
   user-select: none;
   width: 50px;
   flex-shrink: 0;
   margin: 2.5%;
+  color: #333;
 }
 
 .carouselImages {
