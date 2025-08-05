@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-bottom: 2.5rem;
   max-width: 1000px;
   flex-shrink: 0;
 }

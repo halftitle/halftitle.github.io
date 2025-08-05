@@ -32,9 +32,6 @@ export default function Applegirl() {
                     </a>
                 </header>
                 <ImageCarousel images={images} />
-                <a href="https://drive.google.com/drive/folders/12feWPHXVXKQmS42ujKgV-NstbkMS7gYL?usp=sharing">
-                        (access in google drive)
-                </a>
                 <div className="credits">
                     <p>KYLE ALAAN-NGUYEN</p>
                     <p>CHARLOTTE ALARIE</p>
@@ -74,6 +71,9 @@ export default function Applegirl() {
                 </div>
             </main>
             <footer>
+                <a href="https://drive.google.com/drive/folders/12feWPHXVXKQmS42ujKgV-NstbkMS7gYL?usp=sharing">
+                    access in google drive
+                </a>
                 <p>nov 2024</p>
             </footer>
         </div>
