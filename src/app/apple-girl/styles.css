@@ -62,3 +62,8 @@ a:link {
 a:visited {
   color: #551A8B;
 }
+
+.return a:any-link {
+  color: #333;
+  text-decoration: none;
+}

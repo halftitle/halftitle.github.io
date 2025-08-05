@@ -27,6 +27,19 @@
   }
 }
 
+.spiral {
+  margin-top: -10rem;
+}
+
+.about {
+  text-align: left;
+  width: 70%;
+}
+
+.about p {
+  padding: 0.5rem 0rem;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -124,6 +137,10 @@ a.secondary {
   .page {
     padding: 32px;
     padding-bottom: 80px;
+  }
+
+  .about {
+    width: 80%;
   }
 
   .main {

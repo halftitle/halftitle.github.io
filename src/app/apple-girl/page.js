@@ -75,6 +75,11 @@ export default function Applegirl() {
                     access in google drive
                 </a>
                 <p>nov 2024</p>
+                <div className="return">
+                    <a href="/">
+                        {'< back'}
+                    </a>
+                </div>
             </footer>
         </div>
     );
