@@ -5,7 +5,7 @@ export default function About() {
         <div className={styles.page}>
             <main className={styles.main}>
                 <div className={styles.spiral}>
-                    <img src="/halfspiral.png" alt="spiral" width="250"></img>
+                    <img src="/halfspiral-white.png" alt="spiral" width="250"></img>
                 </div>
                 <div className={styles.about}>
                     <p>welcome to the half title super secret zine world</p>
