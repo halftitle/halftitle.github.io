@@ -70,7 +70,7 @@ export default function Saunatown() {
                         order a physical copy
                     </a>
                 </div>
-                <p>oct 2025</p>
+                <p>summer 2025</p>
                 <div className="return">
                     <a href="/">
                         {'< back'}
