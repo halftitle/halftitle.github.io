@@ -26,7 +26,7 @@ export default function Home() {
           </div>
 
           <div className="zine-header">
-            <a href="/">
+            <a href="/saunatown">
               saunatown
             </a>
             <p>

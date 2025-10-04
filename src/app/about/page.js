@@ -5,12 +5,17 @@ export default function About() {
         <div className={styles.page}>
             <main className={styles.main}>
                 <div className={styles.spiral}>
-                    <img src="/halfspiral-white.png" alt="spiral" width="250"></img>
+                    <picture>
+                        <source srcSet="/halfspiral-black.png" media="(prefers-color-scheme: light)"/>
+                        <source srcSet="/halfspiral-white.png" media="(prefers-color-scheme: dark)"/>
+                        <img src="/halfspiral black.png" alt="half title spiral" width="200"></img>
+                    </picture>
                 </div>
                 <div className={styles.about}>
-                    <p>welcome to the half title super secret zine world</p>
-                    <p>by charlotte alarie</p>
-                    <p>website by yanna jaskielewicz</p>
+                    <p>welcome to half title zine world!</p>
+                    <p>half title was born to be a centralized access point for the zines made by a community of talented creators. every project here is non-profit, open submission, and volunteer-based (we do this just for fun).</p>
+                    <p>web dev creds to yanna jaskielewicz.</p>
+                    <p>organization + compilation by charlotte alarie.</p>
                 </div>
             </main>
             <footer className={styles.footer}>

@@ -1,11 +1,11 @@
 :root {
   --background: #ffffff;
-  --foreground: #08111f;
+  --foreground: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #08111f;
+    --background: #000000;
     --foreground: #ffffff;
   }
 }
@@ -75,5 +75,9 @@ a:hover {
     text-decoration: none;
     background-color: var(--foreground);
     color: var(--background);
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 }

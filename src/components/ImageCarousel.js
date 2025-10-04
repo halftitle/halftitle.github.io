@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./ImageCarousel.module.css";
 
-export default function ImageCarousel({ images }) {
+export default function ImageCarousel({ images, style = {} }) {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const prev = () => {
@@ -16,7 +16,7 @@ export default function ImageCarousel({ images }) {
     if (!images || images.length === 0) return null;
 
     return (
-        <div className={styles.carouselContainer}>
+        <div className={styles.carouselContainer} style={style}>
             <button onClick={prev} className={styles.navButton}> {'<-'} </button>
             <div className={styles.imageWrapper}>
                 <div className={styles.carouselImages} style={{ transform: `translateX(-${currentIndex * 100}%)` }}>

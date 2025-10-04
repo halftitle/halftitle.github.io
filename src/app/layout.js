@@ -1,4 +1,4 @@
-import { Noto_Serif, Nanum_Gothic_Coding } from "next/font/google";
+import { Noto_Serif, Nanum_Gothic_Coding, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
 const notoSerif = Noto_Serif({
@@ -11,6 +11,12 @@ const nanumGothic = Nanum_Gothic_Coding({
   subsets: ["latin"],
   weight: '400'
 });
+
+const robotoMono = Roboto_Mono({
+  variable: "--font-roboto-mono",
+  subsets: ["latin"],
+  weight: '400'
+})
 
 export const metadata = {
   title: "half title",

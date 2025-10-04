@@ -31,7 +31,7 @@ export default function Applegirl() {
                         <Image src="/apple-girl/banner.png" alt="apple girl zine" width={600} height={400} />
                     </a>
                 </header>
-                <ImageCarousel images={images} />
+                <ImageCarousel images={images} style={{fontFamily: "'Courier New', Courier, monospace"}} />
                 <div className="credits">
                     <p>KYLE ALAAN-NGUYEN</p>
                     <p>CHARLOTTE ALARIE</p>
