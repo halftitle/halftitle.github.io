@@ -44,7 +44,7 @@ export default function Saunatown() {
                     <p><a href="https://instagram.com/foxgloves_333">Daniel Bezerra</a></p>
                     <p><a href="https://instagram.com/chloecha_">Chloe Cha</a></p>
                     <p>Miranda Chance</p>
-                    <p><a href="https://instagram.com/rubyfaris_">Ruby Faris</a></p>
+                    <p><a href="https://www.instagram.com/rubylfaris/">Ruby Faris</a></p>
                     <p><a href="https://instagram.com/taylordfranks">Taylor Franks</a></p>
                     <p><a href="https://thomasfrenette.bandcamp.com">Thomas Frenette</a></p>
                     <p><a href="https://yannajask.com">Yanna Jaskielewicz</a></p>
@@ -58,7 +58,7 @@ export default function Saunatown() {
                     <p>Aria Van Allen</p>
                     <p><a href="https://instagram.com/siporawest">Sipora West</a></p>
                     <p><a href="https://instagram.com/m4r94ux">Margaux Wilkinson</a></p>
-                    <p><a href="https://instagram.com/">Diana Yamada</a></p>
+                    <p><a href="https://www.instagram.com/dianayamadaaa/">Diana Yamada</a></p>
                 </div>
             </main>
             <footer>
