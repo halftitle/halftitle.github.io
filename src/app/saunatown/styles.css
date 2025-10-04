@@ -77,7 +77,7 @@ footer p {
 }
 
 a:any-link { 
- background-color: #000;
+ background-color: transparent;
 }
 
 .access a:link {
