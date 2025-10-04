@@ -5,7 +5,7 @@ import ImageCarousel from "../../components/ImageCarousel";
 import styles from "./styles.css";
 
 const images = [
-    { src: "/saunatown/saunatown-1-frontcover.png", alt: "front cover" },
+    { src: "/saunatown/front.png", alt: "front cover" },
     { src: "/saunatown/saunatown-2-frontinner.png", alt: "inner front cover" },
     { src: "/saunatown/saunatown-3-credit.png", alt: "credits" },
     { src: "/saunatown/saunatown-4.png", alt: "page 1" },
@@ -23,7 +23,7 @@ const images = [
     { src: "/saunatown/saunatown-16.png", alt: "page 25" },
     { src: "/saunatown/saunatown-17.png", alt: "page 27" },
     { src: "/saunatown/saunatown-18-backinner.png", alt: "inner back cover" },
-    { src: "/saunatown/saunatown-19-backcover.png", alt: "back cover" },
+    { src: "/saunatown/back.png", alt: "back cover" },
 ];
 
 export default function Saunatown() {
