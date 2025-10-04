@@ -32,10 +32,10 @@ export default function Saunatown() {
             <main className={styles.main}>
                 <header className={styles.header}>
                     <a href="/saunatown">
-                        <Image src="/saunatown/saunatown-logo.png" alt="saunatown zine" width={300} height={200} />
+                        <Image src="/saunatown/saunatown-logo-white.png" alt="saunatown zine" width={300} height={200} />
                     </a>
                 </header>
-                <ImageCarousel images={images} style={{ fontFamily: "'Roboto Mono', monospace" }} />
+                <ImageCarousel images={images} style={{ fontFamily: "'Roboto Mono', monospace" }} navColor="#fff" />
                 <div className="credits">
                     <p>Kyle Alaan-Nguyen</p>
                     <p>Charlotte Alarie</p>
@@ -64,16 +64,16 @@ export default function Saunatown() {
             <footer>
                 <div className="access">
                     <a href="https://drive.google.com/drive/folders/1b3YTUG6MS25TIIBZg-2ySjX6pD1wZwvF?usp=drive_link">
-                        access in google drive
+                        Access in Google Drive
                     </a>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfe1OOl0-pn-BtKuy05QPB89fd7qHmrIoZebChHImzRbrB6Kw/viewform">
-                        order a physical copy
+                        Order a physical copy
                     </a>
                 </div>
-                <p>summer 2025</p>
+                <p>Summer 2025</p>
                 <div className="return">
                     <a href="/">
-                        {'< back'}
+                        {'< Back'}
                     </a>
                 </div>
             </footer>

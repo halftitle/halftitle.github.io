@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./ImageCarousel.module.css";
 
-export default function ImageCarousel({ images, style = {} }) {
+export default function ImageCarousel({ images, style = {}, navColor = "#333" }) {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const prev = () => {
@@ -17,7 +17,7 @@ export default function ImageCarousel({ images, style = {} }) {
 
     return (
         <div className={styles.carouselContainer} style={style}>
-            <button onClick={prev} className={styles.navButton}> {'<-'} </button>
+            <button onClick={prev} className={styles.navButton} style={{ color: navColor }}> {'<-'} </button>
             <div className={styles.imageWrapper}>
                 <div className={styles.carouselImages} style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                     {images.map((img, index) => (
@@ -35,7 +35,7 @@ export default function ImageCarousel({ images, style = {} }) {
                     ))};
                 </div>
             </div>
-            <button onClick={next} className={styles.navButton}> {'->'} </button>
+            <button onClick={next} className={styles.navButton} style={{ color: navColor }}> {'->'} </button>
         </div>
     );
 };
