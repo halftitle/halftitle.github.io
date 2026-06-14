@@ -42,8 +42,8 @@ export default function ThirdThing() {
         </main>
 
         <footer className={styles.footer}>
-          <p>DEADLINE FOR SUBMISSIONS (email to <a href="mailto:half05title@gmail.com">half05title@gmail.com</a>):</p>
-          <p className={styles.dateHighlight}>SATURDAY, JUNE 13</p>
+          <p>EXTENDED DEADLINE FOR SUBMISSIONS (email to <a href="mailto:half05title@gmail.com">half05title@gmail.com</a>):</p>
+          <p className={styles.dateHighlight}>FRIDAY, JULY 3</p>
           <a className={styles.back} href="/">{"< back"}</a>
         </footer>
 
