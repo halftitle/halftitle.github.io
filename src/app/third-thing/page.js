@@ -31,7 +31,6 @@ export default function ThirdThing() {
                 <li>Your name, as you wish to be credited</li>
                 <li>High quality files of your piece(s)</li>
                 <li>Title, year, medium of each work</li>
-                <li>Submission description</li>
                 <li>Artist statement (optional)</li>
                 <li>Your social media handle / website (also optional)</li>
                 <li>Any other considerations or preferences</li>
